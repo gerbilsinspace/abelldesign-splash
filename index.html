@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Abell Design</title>
+<style>
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	font-family: "Avenir Next", sans-serif;
+	vertical-align: baseline;
+	text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#app {
+	margin: 0 auto;
+	max-width: 600px;
+	text-align: center;
+}
+.logo {
+	max-width: 300px;
+	margin: 10% auto 20px;
+}
+h1 {
+	font-size: 30px;
+	margin-bottom: 50px;
+}
+p {
+	margin-bottom: 10px;
+}
+.social {margin-top: 50px;}
+.social img {
+  max-width: 25px;
+  padding: 10px;
+}
+a {
+  color: #3B5E89;
+}
+
+@media screen and (max-width: 400px) {
+  .logo {
+  	max-width: 200px;
+  }
+  h1 {
+  	font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 200px) {
+  .logo {
+  	max-width: auto;
+  	width: 80%;
+  }
+  a {
+  	font-size: 12px;
+  }
+  h1 {
+  	margin-bottom: 20px;
+  }
+  .social {
+  	margin-top: 20px;
+  }
+}
+</style>
+  <meta name="mobile-web-app-capable" content="yes"><meta name="theme-color" content="#fff"><meta name="application-name" content="Abell Design"><link rel="apple-touch-icon" sizes="57x57" href="/assets/icons-d8a3c63d7c8f6a2d8232c3b69c4a11d2/apple-touch-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="/assets/icons-d8a3c63d7c8f6a2d8232c3b69c4a11d2/apple-touch-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="/assets/icons-d8a3c63d7c8f6a2d8232c3b69c4a11d2/apple-touch-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="/assets/icons-d8a3c63d7c8f6a2d8232c3b69c4a11d2/apple-touch-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="/assets/icons-d8a3c63d7c8f6a2d8232c3b69c4a11d2/apple-touch-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="/assets/icons-d8a3c63d7c8f6a2d8232c3b69c4a11d2/apple-touch-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="/assets/icons-d8a3c63d7c8f6a2d8232c3b69c4a11d2/apple-touch-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="/assets/icons-d8a3c63d7c8f6a2d8232c3b69c4a11d2/apple-touch-icon-152x152.png"><link rel="apple-touch-icon" sizes="180x180" href="/assets/icons-d8a3c63d7c8f6a2d8232c3b69c4a11d2/apple-touch-icon-180x180.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="Abell Design"><link rel="icon" type="image/png" sizes="228x228" href="/assets/icons-d8a3c63d7c8f6a2d8232c3b69c4a11d2/coast-228x228.png"><meta name="msapplication-TileColor" content="#fff"><meta name="msapplication-TileImage" content="mstile-144x144.png"><meta name="msapplication-config" content="browserconfig.xml"><link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)" href="/assets/icons-d8a3c63d7c8f6a2d8232c3b69c4a11d2/apple-touch-startup-image-320x460.png"><link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" href="/assets/icons-d8a3c63d7c8f6a2d8232c3b69c4a11d2/apple-touch-startup-image-640x920.png"><link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" href="/assets/icons-d8a3c63d7c8f6a2d8232c3b69c4a11d2/apple-touch-startup-image-640x1096.png"><link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" href="/assets/icons-d8a3c63d7c8f6a2d8232c3b69c4a11d2/apple-touch-startup-image-750x1294.png"><link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3)" href="/assets/icons-d8a3c63d7c8f6a2d8232c3b69c4a11d2/apple-touch-startup-image-1182x2208.png"><link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)" href="/assets/icons-d8a3c63d7c8f6a2d8232c3b69c4a11d2/apple-touch-startup-image-1242x2148.png"><link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 1)" href="/assets/icons-d8a3c63d7c8f6a2d8232c3b69c4a11d2/apple-touch-startup-image-748x1024.png"><link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 1)" href="/assets/icons-d8a3c63d7c8f6a2d8232c3b69c4a11d2/apple-touch-startup-image-768x1004.png"><link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" href="/assets/icons-d8a3c63d7c8f6a2d8232c3b69c4a11d2/apple-touch-startup-image-1496x2048.png"><link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="/assets/icons-d8a3c63d7c8f6a2d8232c3b69c4a11d2/apple-touch-startup-image-1536x2008.png"><link rel="icon" type="image/png" sizes="32x32" href="/assets/icons-d8a3c63d7c8f6a2d8232c3b69c4a11d2/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/assets/icons-d8a3c63d7c8f6a2d8232c3b69c4a11d2/favicon-16x16.png"><link rel="shortcut icon" href="/assets/icons-d8a3c63d7c8f6a2d8232c3b69c4a11d2/favicon.ico"></head>
+  <body>
+    <div id="app">
+    	<img class="logo" alt="Abell Design" src="./images/logo.jpg" />
+    	<h1>New website coming soon.</h1>
+
+    	<div class="contact">
+				<p><a href="mailto:grace@abelldesign.co.uk">grace@abelldesign.co.uk</a></p>
+    		<p><a href="tel:+447719796949">07719 796949</a></p>
+    	</div>
+    	<div class="social">	
+    		<a href="https://www.facebook.com/AbellDesignYork/"><img alt="Facebook" src="./images/facebook.svg" /></a>
+    		<a href="https://www.twitter.com/grace_neal"><img alt="Twitter" src="./images/twitter.svg" /></a>
+    		<a href="https://www.linkedin.com/in/grace-abell-neal/"><img alt="LinkedIn" src="./images/linkedin.svg" /></a>
+    	</div>
+    </div>
+  <script type="text/javascript" src="/assets/bundle.js?3524a3edea6190d84447"></script></body>
+</html>
